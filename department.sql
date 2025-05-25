@@ -53,7 +53,7 @@ FROM DEPARTMENT
 WHERE MANAGER_ID = '103'
 GROUP BY department_id;
 
-SELECT department_id COUNT(*) AS "No. of Empl[yees"
+SELECT department_id COUNT(*) AS "No. of Employees"
 FROM DEPARTMENT
 GROUP BY department_id
 HAVING COUNT(*) > 2;
